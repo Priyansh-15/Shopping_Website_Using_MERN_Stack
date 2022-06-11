@@ -1,0 +1,19 @@
+.head-section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2015/03/people-holing-bags-shopping.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    color: coral;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+

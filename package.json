@@ -1,0 +1,29 @@
+ {
+    "name": "my-app-build",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node backend/server.js",
+      "server": "nodemon backend/server.js",
+      "client": "npm start --prefix my-app",
+      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "data:import": "node backend/seederScript"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+  
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.3.0",
+    "react-slideshow-image": "^3.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
