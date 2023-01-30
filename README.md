@@ -36,3 +36,6 @@ All the data is stored in Mongo db as a collection. And it’s upto the user to 
 
 ![190678466-56e5eef6-290e-4d76-adc7-c474537a34a1](https://user-images.githubusercontent.com/77832407/215499911-01cbb844-22a7-4692-8621-fd068c982861.png)
 
+
+
+<sub><sup>Priyansh Sharma</sup></sub>
